@@ -34,9 +34,9 @@ input  →  Apollo (restore)  →  AudioSR ×50 (super-resolution)  →  Compres
 
 ![before / after](assets/spectrogram-compare.png)
 
-Frequency axis is **linear**, so the low end (20–1250 Hz) is compressed to the bottom and the
-**high end is expanded** — that's where the reconstruction shows. The waveform (bottom) makes
-the master obvious: fuller and more consistent (compression + −14 LUFS).
+Same 20-second slice: **V0 (original)** vs **V10 (Apollo → AudioSR)**. The frequency axis is
+**linear**, so the high end is expanded — you can see the reconstruction fill the top half with
+cleaner, denser detail (the "air"). Both loudness-matched (−14 LUFS).
 
 ## Run it yourself
 
