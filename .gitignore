@@ -1,0 +1,33 @@
+# audio (user tracks — never commit someone's music)
+colab/input/*
+!colab/input/.gitkeep
+out/
+*.wav
+*.mp3
+*.flac
+*.m4a
+# ...except the public demo clips used by the presentation site
+!web/media/before.mp3
+!web/media/after.mp3
+
+# secrets / sessions — NEVER commit
+*cookies*.txt
+*.cookies
+chrome-*/
+chrome-agent/
+.env
+*.pem
+*token*
+*secret*
+
+# node / playwright
+node_modules/
+package-lock.json
+
+# misc
+.DS_Store
+*.log
+out/*.png
+
+# vercel link
+.vercel/

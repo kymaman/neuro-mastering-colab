@@ -1,0 +1,15 @@
+{
+  "name": "neuro-mastering-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Optional CDP helpers for an AI agent to drive Colab headless (see docs/AGENT_HEADLESS.md)",
+  "scripts": {
+    "boot": "node cl.mjs",
+    "state": "node cl.mjs",
+    "newnb": "node newnb.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
